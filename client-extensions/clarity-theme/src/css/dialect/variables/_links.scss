@@ -1,3 +1,8 @@
+$link-color: var(--color-action-primary-default);
+$link-decoration: var(--link-text-decoration);
+$link-hover-color: var(--link-hover-color);
+$link-hover-decoration: var(--link-hover-text-decoration);
+
 $link-visited: (
 	visited: (
 		color: var(--link-visited-color),

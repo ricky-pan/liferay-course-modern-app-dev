@@ -4,9 +4,6 @@ $input-label-font-size: var(--form-input-label-font-size);
 $input-label-font-weight: var(--form-input-label-font-weight);
 $input-label-margin-bottom: var(--form-input-label-margin-bottom);
 $input-label-reference-mark-color: var(--form-input-label-reference-mark-color);
-$input-label-reference-mark-font-size: 0.3125rem;
-$input-label-reference-mark-spacer: 0.25rem;
-$input-label-reference-mark-vertical-align: super;
 
 $input-bg: var(--form-input-background-color);
 $input-border-color: var(--form-input-border-color);
@@ -19,10 +16,7 @@ $input-height: var(--form-input-height);
 $input-line-height: var(--form-input-line-height);
 $input-padding-x: var(--form-input-padding-x);
 $input-padding-y: var(--form-input-padding-y);
-$input-transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 
-$input-focus-bg: $form-white-color;
-$input-focus-border-color: $form-input-focus-color;
 
 $input-disabled-bg: var(
 	--form-input-disabled-background-color,
@@ -40,27 +34,16 @@ $input-placeholder-focus-color: var(--form-input-placeholder-color-focus);
 
 $input-danger-bg: var(--form-input-error-bg, #{danger-l2});
 $input-danger-border-color: var(--form-input-error-border-color, #{$danger});
-$input-danger-checkbox-label-color: $input-label-color;
-$input-danger-focus-bg: #{$form-white-color};
-$input-danger-focus-border-color: #{$form-input-focus-color};
 $input-success-bg: var(--form-input-success-bg, #{success-l2});
 $input-success-border-color: var(
 	--form-input-success-border-color,
 	#{$success}
 );
-$input-success-checkbox-label-color: $input-label-color;
-$input-success-focus-bg: #{$form-white-color};
-$input-success-focus-border-color: #{$form-input-focus-color};
 $input-warning-bg: var(--form-input-warning-bg, #{warning-l2});
 $input-warning-border-color: var(
 	--form-input-warning-border-color,
 	#{$warning}
 );
-$input-warning-checkbox-label-color: $input-label-color;
-$input-warning-focus-bg: #{$form-white-color};
-$input-warning-focus-border-color: #{$form-input-focus-color};
-
-$form-feedback-indicator-margin-x: 0.25rem;
 
 $form-feedback-font-size: var(--form-feedback-item-font-size);
 $form-feedback-font-weight: var(--form-feedback-item-font-weight);
